@@ -14,6 +14,14 @@ Number of epochs to reach a validation accuracy of 0.4: Epoch 9
 Validation accuracy after 100 epochs: 0.64432889
 Note: We ran the program to completion at 1000 Epoches. We found out that the validation accuracy did not ever reach 0.66. At around 150 epoches, it started to fluctuate between 0.65 and 0.648/0.649.  
 
+B. Names: Sarah Zuckerman, Thyne Boonmark, Cole Stephens
+Summary of Results:
+No random number seed worked with momentum of 0.9 and learning rate 0.01
+Eventually changed momentum to 0.5, Learning Rate of 0.01
+Number of epochs to reach a validation accuracy of 0.4: Epoch 4
+Validation accuracy after 100 Epochs: 0.66
+Stopped at Epoch 237 with Validation Accuracy of 0.67
+
 D. Names: Ian Nanez, Hutomo Limanto, Obi Daniel Ezeogu
 Description: use momentum optimization with a momentum of 0.5, learning rate 0.001
 Summary Results:
