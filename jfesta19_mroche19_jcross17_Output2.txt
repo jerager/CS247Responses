@@ -1,0 +1,16 @@
+Max Roche, John Festa, John Cross
+Description: Use momentum optimization with a momentum of 0,9, learning rate 0.1
+Number of epochs to reach a validation accuracy of 0.4: 3 epochs
+
+So, initially we ran the code with the parameters given to us which was Momentum Optimizer of 0.9 with a learning rate of 0.1. We found that the accuracy go stuck at approximately 0.1 for 3 epochs. So, we shut it down and tried both a new seed to a completely random number of 7812 and a new learning rate. The group who had this momentum task for the first assignemnt told us that 0.5 worked well for them. We tried this as well as a learning rate for of 0.75. Both worked well but we decided to submit the results that are with a momentum of 0.75. The learning rate remained 0.1 for the all of thee experiments. 
+
+Here are the results: we reached an accuracy of 0.4 after the third epoch. 
+('Epoch:', 1, 'cost =', 2.2984038053240092)
+('Validation Accuracy:', 0.19103821)
+('Test Accuracy:', 0.19073814)
+('Epoch:', 2, 'cost =', 2.0559608605929771)
+('Validation Accuracy:', 0.31686336)
+('Test Accuracy:', 0.32486498)
+('Epoch:', 3, 'cost =', 1.8345533851214808)
+('Validation Accuracy:', 0.40228045)
+('Test Accuracy:', 0.40958193)
