@@ -1,0 +1,962 @@
+We ran multiple trials at momentum=0.9 and learning_rate = 0.01 and it would get stuck immediately with multiple different (6) random seeds.
+
+These were the parameters for this run:
+learning_rate = 0.01
+training_epochs = 10000
+batch_size = 100
+display_step = 1
+momentum = 0.5
+
+Output began here:
+
+('names', ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck'])
+((50000, 3072), (50000,))
+('Epoch:', 1, 'cost =', 2.3014742006574362)
+('Validation Accuracy:', 0.14182837)
+assurance
+('Test Accuracy:', 0.1425285)
+('Epoch:', 2, 'cost =', 2.1787895870208738)
+('Validation Accuracy:', 0.26325265)
+assurance
+('Test Accuracy:', 0.26775354)
+
+('Epoch:', 3, 'cost =', 1.9337120182173613)
+('Validation Accuracy:', 0.38967794)
+assurance
+('Test Accuracy:', 0.40068012)
+('Epoch:', 4, 'cost =', 1.6166030771391735)
+('Validation Accuracy:', 0.44488898)
+assurance
+('Test Accuracy:', 0.45819163)
+('Epoch:', 5, 'cost =', 1.4683632911954612)
+('Validation Accuracy:', 0.47789559)
+assurance
+('Test Accuracy:', 0.49259853)
+('Epoch:', 6, 'cost =', 1.3579100864274158)
+('Validation Accuracy:', 0.50230044)
+assurance
+('Test Accuracy:', 0.51510304)
+('Epoch:', 7, 'cost =', 1.2709406614303591)
+('Validation Accuracy:', 0.52550513)
+assurance
+('Test Accuracy:', 0.53350669)
+('Epoch:', 8, 'cost =', 1.1945779262270242)
+('Validation Accuracy:', 0.54630923)
+assurance
+('Test Accuracy:', 0.55181038)
+('Epoch:', 9, 'cost =', 1.1309570321014943)
+('Validation Accuracy:', 0.55991197)
+assurance
+('Test Accuracy:', 0.57041407)
+('Epoch:', 10, 'cost =', 1.0773166051932759)
+('Validation Accuracy:', 0.57191437)
+assurance
+('Test Accuracy:', 0.57591516)
+('Epoch:', 11, 'cost =', 1.0265888575145179)
+('Validation Accuracy:', 0.58171636)
+assurance
+('Test Accuracy:', 0.5910182)
+('Epoch:', 12, 'cost =', 0.97829095959663437)
+('Validation Accuracy:', 0.58971792)
+assurance
+('Test Accuracy:', 0.60362071)
+('Epoch:', 13, 'cost =', 0.93251668231827956)
+('Validation Accuracy:', 0.595119)
+assurance
+('Test Accuracy:', 0.60642129)
+('Epoch:', 14, 'cost =', 0.89530278648648909)
+('Validation Accuracy:', 0.60652131)
+assurance
+('Test Accuracy:', 0.61292261)
+('Epoch:', 15, 'cost =', 0.85555887307439482)
+('Validation Accuracy:', 0.61472297)
+assurance
+('Test Accuracy:', 0.61932385)
+('Epoch:', 16, 'cost =', 0.81797208581651992)
+('Validation Accuracy:', 0.61172235)
+assurance
+('Test Accuracy:', 0.62632525)
+('Epoch:', 17, 'cost =', 0.7745322077614929)
+('Validation Accuracy:', 0.62072414)
+assurance
+('Test Accuracy:', 0.63132626)
+('Epoch:', 18, 'cost =', 0.74039491891860998)
+('Validation Accuracy:', 0.62452489)
+assurance
+('Test Accuracy:', 0.63642728)
+('Epoch:', 19, 'cost =', 0.70782517543860834)
+('Validation Accuracy:', 0.62672532)
+assurance
+('Test Accuracy:', 0.63452691)
+('Epoch:', 20, 'cost =', 0.67271117670195424)
+('Validation Accuracy:', 0.63072616)
+assurance
+('Test Accuracy:', 0.63842767)
+('Epoch:', 21, 'cost =', 0.63852591914790013)
+('Validation Accuracy:', 0.63152629)
+assurance
+('Test Accuracy:', 0.64052808)
+('Epoch:', 22, 'cost =', 0.60368738974843661)
+('Validation Accuracy:', 0.64112824)
+assurance
+('Test Accuracy:', 0.64682937)
+('Epoch:', 23, 'cost =', 0.57213941786970435)
+('Validation Accuracy:', 0.63172632)
+assurance
+('Test Accuracy:', 0.64302862)
+('Epoch:', 24, 'cost =', 0.54637220748833282)
+('Validation Accuracy:', 0.63312662)
+assurance
+('Test Accuracy:', 0.64592916)
+('Epoch:', 25, 'cost =', 0.51624413268906721)
+('Validation Accuracy:', 0.63932788)
+assurance
+('Test Accuracy:', 0.64993)
+('Epoch:', 26, 'cost =', 0.48766989094870433)
+('Validation Accuracy:', 0.63792759)
+assurance
+('Test Accuracy:', 0.64612925)
+('Epoch:', 27, 'cost =', 0.46155550386224503)
+('Validation Accuracy:', 0.64552909)
+assurance
+('Test Accuracy:', 0.64982998)
+('Epoch:', 28, 'cost =', 0.43510737632002161)
+('Validation Accuracy:', 0.63852769)
+assurance
+('Test Accuracy:', 0.65363073)
+('Epoch:', 29, 'cost =', 0.41332510122231092)
+('Validation Accuracy:', 0.64432889)
+assurance
+('Test Accuracy:', 0.65013003)
+('Epoch:', 30, 'cost =', 0.38831338341747029)
+('Validation Accuracy:', 0.65213042)
+assurance
+('Test Accuracy:', 0.65323067)
+('Epoch:', 31, 'cost =', 0.36680018795388059)
+('Validation Accuracy:', 0.64993)
+assurance
+('Test Accuracy:', 0.65413082)
+('Epoch:', 32, 'cost =', 0.34369231585945409)
+('Validation Accuracy:', 0.6365273)
+assurance
+('Test Accuracy:', 0.65263051)
+('Epoch:', 33, 'cost =', 0.33010447455304004)
+('Validation Accuracy:', 0.64332867)
+assurance
+('Test Accuracy:', 0.64772958)
+('Epoch:', 34, 'cost =', 0.30617512008973519)
+('Validation Accuracy:', 0.64212841)
+assurance
+('Test Accuracy:', 0.64912981)
+('Epoch:', 35, 'cost =', 0.29004436833517888)
+('Validation Accuracy:', 0.64812964)
+assurance
+('Test Accuracy:', 0.65033007)
+('Epoch:', 36, 'cost =', 0.27470283789294087)
+('Validation Accuracy:', 0.6365273)
+assurance
+('Test Accuracy:', 0.64932984)
+('Epoch:', 37, 'cost =', 0.25968100215707518)
+('Validation Accuracy:', 0.64552909)
+assurance
+('Test Accuracy:', 0.65133029)
+('Epoch:', 38, 'cost =', 0.24023887023329732)
+('Validation Accuracy:', 0.64252853)
+assurance
+('Test Accuracy:', 0.65093017)
+('Epoch:', 39, 'cost =', 0.22730139368346794)
+('Validation Accuracy:', 0.64132828)
+assurance
+('Test Accuracy:', 0.65673137)
+('Epoch:', 40, 'cost =', 0.21657307539667406)
+('Validation Accuracy:', 0.64652932)
+assurance
+('Test Accuracy:', 0.65613121)
+('Epoch:', 41, 'cost =', 0.21283800312450954)
+('Validation Accuracy:', 0.65213042)
+assurance
+('Test Accuracy:', 0.65833169)
+('Epoch:', 42, 'cost =', 0.19591145036476001)
+('Validation Accuracy:', 0.6505301)
+assurance
+('Test Accuracy:', 0.65293056)
+('Epoch:', 43, 'cost =', 0.18818799293466973)
+('Validation Accuracy:', 0.64912981)
+assurance
+('Test Accuracy:', 0.65443087)
+('Epoch:', 44, 'cost =', 0.17944600107414374)
+('Validation Accuracy:', 0.64972997)
+assurance
+('Test Accuracy:', 0.65333068)
+('Epoch:', 45, 'cost =', 0.16756127646991192)
+('Validation Accuracy:', 0.65173036)
+assurance
+('Test Accuracy:', 0.65303063)
+('Epoch:', 46, 'cost =', 0.16055712663701599)
+('Validation Accuracy:', 0.65553111)
+assurance
+('Test Accuracy:', 0.65523106)
+('Epoch:', 47, 'cost =', 0.15424575849303168)
+('Validation Accuracy:', 0.6575315)
+assurance
+('Test Accuracy:', 0.66093218)
+('Epoch:', 48, 'cost =', 0.14412729413381667)
+('Validation Accuracy:', 0.65393078)
+assurance
+('Test Accuracy:', 0.65603119)
+('Epoch:', 49, 'cost =', 0.14317061661609581)
+('Validation Accuracy:', 0.65773153)
+assurance
+('Test Accuracy:', 0.65613121)
+('Epoch:', 50, 'cost =', 0.13479532838932096)
+('Validation Accuracy:', 0.65473098)
+assurance
+('Test Accuracy:', 0.66233248)
+('Epoch:', 51, 'cost =', 0.12830314441450999)
+('Validation Accuracy:', 0.65513104)
+assurance
+('Test Accuracy:', 0.66013205)
+('Epoch:', 52, 'cost =', 0.12740467892161436)
+('Validation Accuracy:', 0.65453088)
+assurance
+('Test Accuracy:', 0.65673137)
+('Epoch:', 53, 'cost =', 0.12093499035707547)
+('Validation Accuracy:', 0.65453088)
+assurance
+('Test Accuracy:', 0.66353273)
+('Epoch:', 54, 'cost =', 0.11383177714688428)
+('Validation Accuracy:', 0.65093017)
+assurance
+('Test Accuracy:', 0.65963191)
+('Epoch:', 55, 'cost =', 0.11014267975730564)
+('Validation Accuracy:', 0.65353072)
+assurance
+('Test Accuracy:', 0.65763152)
+('Epoch:', 56, 'cost =', 0.105823929650443)
+('Validation Accuracy:', 0.65273052)
+assurance
+('Test Accuracy:', 0.65713143)
+('Epoch:', 57, 'cost =', 0.10339977201606534)
+('Validation Accuracy:', 0.65333068)
+assurance
+('Test Accuracy:', 0.65933186)
+('Epoch:', 58, 'cost =', 0.099195377922483813)
+('Validation Accuracy:', 0.66053212)
+assurance
+('Test Accuracy:', 0.66223246)
+('Epoch:', 59, 'cost =', 0.096039388174457285)
+('Validation Accuracy:', 0.65653133)
+assurance
+('Test Accuracy:', 0.6610322)
+('Epoch:', 60, 'cost =', 0.091342881231435635)
+('Validation Accuracy:', 0.65173036)
+assurance
+('Test Accuracy:', 0.66113222)
+('Epoch:', 61, 'cost =', 0.087283456926899261)
+('Validation Accuracy:', 0.65973192)
+assurance
+('Test Accuracy:', 0.66023207)
+('Epoch:', 62, 'cost =', 0.086827038366879758)
+('Validation Accuracy:', 0.64912981)
+assurance
+('Test Accuracy:', 0.65983194)
+('Epoch:', 63, 'cost =', 0.080716864142034786)
+('Validation Accuracy:', 0.66013205)
+assurance
+('Test Accuracy:', 0.66153228)
+('Epoch:', 64, 'cost =', 0.080533237904310287)
+('Validation Accuracy:', 0.65413082)
+assurance
+('Test Accuracy:', 0.66183239)
+('Epoch:', 65, 'cost =', 0.077661153312240369)
+('Validation Accuracy:', 0.65573114)
+assurance
+('Test Accuracy:', 0.6639328)
+('Epoch:', 66, 'cost =', 0.073478719187634267)
+('Validation Accuracy:', 0.65853173)
+assurance
+('Test Accuracy:', 0.66573316)
+('Epoch:', 67, 'cost =', 0.073314080967434747)
+('Validation Accuracy:', 0.65273052)
+assurance
+('Test Accuracy:', 0.66403282)
+('Epoch:', 68, 'cost =', 0.07034634040402514)
+('Validation Accuracy:', 0.65473098)
+assurance
+('Test Accuracy:', 0.65873176)
+('Epoch:', 69, 'cost =', 0.067545741152550465)
+('Validation Accuracy:', 0.65633124)
+assurance
+('Test Accuracy:', 0.66223246)
+('Epoch:', 70, 'cost =', 0.065246618751968674)
+('Validation Accuracy:', 0.65313065)
+assurance
+('Test Accuracy:', 0.66443288)
+('Epoch:', 71, 'cost =', 0.064530872194362543)
+('Validation Accuracy:', 0.6575315)
+assurance
+('Test Accuracy:', 0.66313261)
+('Epoch:', 72, 'cost =', 0.06248678770448475)
+('Validation Accuracy:', 0.65593117)
+assurance
+('Test Accuracy:', 0.6639328)
+('Epoch:', 73, 'cost =', 0.062897305041551582)
+('Validation Accuracy:', 0.65393078)
+assurance
+('Test Accuracy:', 0.66193241)
+('Epoch:', 74, 'cost =', 0.061039809864014381)
+('Validation Accuracy:', 0.65533108)
+assurance
+('Test Accuracy:', 0.66073215)
+('Epoch:', 75, 'cost =', 0.058946856223046726)
+('Validation Accuracy:', 0.65633124)
+assurance
+('Test Accuracy:', 0.66093218)
+('Epoch:', 76, 'cost =', 0.058884183413216037)
+('Validation Accuracy:', 0.6575315)
+assurance
+('Test Accuracy:', 0.66263252)
+('Epoch:', 77, 'cost =', 0.058218133242002597)
+('Validation Accuracy:', 0.65653133)
+assurance
+('Test Accuracy:', 0.66463292)
+('Epoch:', 78, 'cost =', 0.054882642767791208)
+('Validation Accuracy:', 0.6569314)
+assurance
+('Test Accuracy:', 0.66203243)
+('Epoch:', 79, 'cost =', 0.054322034187082716)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.66123223)
+('Epoch:', 80, 'cost =', 0.051631656307727043)
+('Validation Accuracy:', 0.65893179)
+assurance
+('Test Accuracy:', 0.66203243)
+('Epoch:', 81, 'cost =', 0.052149451175438573)
+('Validation Accuracy:', 0.66333264)
+assurance
+('Test Accuracy:', 0.66563314)
+('Epoch:', 82, 'cost =', 0.046643471578136086)
+('Validation Accuracy:', 0.65633124)
+assurance
+('Test Accuracy:', 0.66503298)
+('Epoch:', 83, 'cost =', 0.052014530069593889)
+('Validation Accuracy:', 0.65373075)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 84, 'cost =', 0.048247440912361633)
+('Validation Accuracy:', 0.66013205)
+assurance
+('Test Accuracy:', 0.66233248)
+('Epoch:', 85, 'cost =', 0.045469892820609432)
+('Validation Accuracy:', 0.65613121)
+assurance
+('Test Accuracy:', 0.66423285)
+('Epoch:', 86, 'cost =', 0.045445084860548372)
+('Validation Accuracy:', 0.66353273)
+assurance
+('Test Accuracy:', 0.66193241)
+('Epoch:', 87, 'cost =', 0.044696195721626281)
+('Validation Accuracy:', 0.66333264)
+assurance
+('Test Accuracy:', 0.66433287)
+('Epoch:', 88, 'cost =', 0.043475448558373091)
+('Validation Accuracy:', 0.6639328)
+assurance
+('Test Accuracy:', 0.66243249)
+('Epoch:', 89, 'cost =', 0.04170389561780858)
+('Validation Accuracy:', 0.66413283)
+assurance
+('Test Accuracy:', 0.66493297)
+('Epoch:', 90, 'cost =', 0.041820438565420247)
+('Validation Accuracy:', 0.65913182)
+assurance
+('Test Accuracy:', 0.66213244)
+('Epoch:', 91, 'cost =', 0.041890225809599689)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.66383278)
+('Epoch:', 92, 'cost =', 0.041703259311616378)
+('Validation Accuracy:', 0.65713143)
+assurance
+('Test Accuracy:', 0.66643327)
+('Epoch:', 93, 'cost =', 0.039918697950031078)
+('Validation Accuracy:', 0.65893179)
+assurance
+('Test Accuracy:', 0.66533309)
+('Epoch:', 94, 'cost =', 0.039962896835058916)
+('Validation Accuracy:', 0.66033208)
+assurance
+('Test Accuracy:', 0.66193241)
+('Epoch:', 95, 'cost =', 0.041353736912299467)
+('Validation Accuracy:', 0.66033208)
+assurance
+('Test Accuracy:', 0.66273254)
+('Epoch:', 96, 'cost =', 0.039859496685011007)
+('Validation Accuracy:', 0.65853173)
+assurance
+('Test Accuracy:', 0.6639328)
+('Epoch:', 97, 'cost =', 0.036569105054118776)
+('Validation Accuracy:', 0.66353273)
+assurance
+('Test Accuracy:', 0.66383278)
+('Epoch:', 98, 'cost =', 0.036449388409299503)
+('Validation Accuracy:', 0.66193241)
+assurance
+('Test Accuracy:', 0.66313261)
+('Epoch:', 99, 'cost =', 0.034359794241775349)
+('Validation Accuracy:', 0.66093218)
+assurance
+('Test Accuracy:', 0.66273254)
+('Epoch:', 100, 'cost =', 0.03648349719787284)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66063213)
+('Epoch:', 101, 'cost =', 0.03491052807707868)
+('Validation Accuracy:', 0.66293257)
+assurance
+('Test Accuracy:', 0.66433287)
+('Epoch:', 102, 'cost =', 0.035626635260081731)
+('Validation Accuracy:', 0.66373277)
+assurance
+('Test Accuracy:', 0.66093218)
+('Epoch:', 103, 'cost =', 0.034328196860317677)
+('Validation Accuracy:', 0.66353273)
+assurance
+('Test Accuracy:', 0.66643327)
+('Epoch:', 104, 'cost =', 0.032603072190125058)
+('Validation Accuracy:', 0.6639328)
+assurance
+('Test Accuracy:', 0.66143227)
+('Epoch:', 105, 'cost =', 0.031870623715221875)
+('Validation Accuracy:', 0.66073215)
+assurance
+('Test Accuracy:', 0.6604321)
+('Epoch:', 106, 'cost =', 0.031386829709102004)
+('Validation Accuracy:', 0.66573316)
+assurance
+('Test Accuracy:', 0.66463292)
+('Epoch:', 107, 'cost =', 0.030342086650697271)
+('Validation Accuracy:', 0.65973192)
+assurance
+('Test Accuracy:', 0.6639328)
+('Epoch:', 108, 'cost =', 0.030341614154832691)
+('Validation Accuracy:', 0.65873176)
+assurance
+('Test Accuracy:', 0.66293257)
+('Epoch:', 109, 'cost =', 0.03009704284835607)
+('Validation Accuracy:', 0.66413283)
+assurance
+('Test Accuracy:', 0.66323262)
+('Epoch:', 110, 'cost =', 0.029977554574475766)
+('Validation Accuracy:', 0.66113222)
+assurance
+('Test Accuracy:', 0.66223246)
+('Epoch:', 111, 'cost =', 0.029027823037467895)
+('Validation Accuracy:', 0.66113222)
+assurance
+('Test Accuracy:', 0.66283256)
+('Epoch:', 112, 'cost =', 0.028912613158380365)
+('Validation Accuracy:', 0.65953189)
+assurance
+('Test Accuracy:', 0.66613322)
+('Epoch:', 113, 'cost =', 0.028615205434284037)
+('Validation Accuracy:', 0.65833169)
+assurance
+('Test Accuracy:', 0.66413283)
+('Epoch:', 114, 'cost =', 0.028584032881605836)
+('Validation Accuracy:', 0.65733147)
+assurance
+('Test Accuracy:', 0.66523308)
+('Epoch:', 115, 'cost =', 0.028798058056937817)
+('Validation Accuracy:', 0.66053212)
+assurance
+('Test Accuracy:', 0.6674335)
+('Epoch:', 116, 'cost =', 0.027214215349272968)
+('Validation Accuracy:', 0.66693336)
+assurance
+('Test Accuracy:', 0.6674335)
+('Epoch:', 117, 'cost =', 0.027055117269046608)
+('Validation Accuracy:', 0.66293257)
+assurance
+('Test Accuracy:', 0.665133)
+('Epoch:', 118, 'cost =', 0.025644451906638464)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66773355)
+('Epoch:', 119, 'cost =', 0.026270074063379858)
+('Validation Accuracy:', 0.65873176)
+assurance
+('Test Accuracy:', 0.66643327)
+('Epoch:', 120, 'cost =', 0.025259647932834927)
+('Validation Accuracy:', 0.65973192)
+assurance
+('Test Accuracy:', 0.66713345)
+('Epoch:', 121, 'cost =', 0.02442692727981401)
+('Validation Accuracy:', 0.66133225)
+assurance
+('Test Accuracy:', 0.66723347)
+('Epoch:', 122, 'cost =', 0.025229996812662903)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66783357)
+('Epoch:', 123, 'cost =', 0.024547684430809943)
+('Validation Accuracy:', 0.66033208)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 124, 'cost =', 0.02393996476860983)
+('Validation Accuracy:', 0.66333264)
+assurance
+('Test Accuracy:', 0.67123425)
+('Epoch:', 125, 'cost =', 0.022031343105648242)
+('Validation Accuracy:', 0.66193241)
+assurance
+('Test Accuracy:', 0.66553313)
+('Epoch:', 126, 'cost =', 0.023325902385903239)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.66503298)
+('Epoch:', 127, 'cost =', 0.026157611569921892)
+('Validation Accuracy:', 0.65353072)
+assurance
+('Test Accuracy:', 0.66193241)
+('Epoch:', 128, 'cost =', 0.023856102812236962)
+('Validation Accuracy:', 0.65933186)
+assurance
+('Test Accuracy:', 0.66713345)
+('Epoch:', 129, 'cost =', 0.022702976785866278)
+('Validation Accuracy:', 0.66773355)
+assurance
+('Test Accuracy:', 0.66773355)
+('Epoch:', 130, 'cost =', 0.02334787937346847)
+('Validation Accuracy:', 0.66073215)
+assurance
+('Test Accuracy:', 0.665133)
+('Epoch:', 131, 'cost =', 0.022428766340017312)
+('Validation Accuracy:', 0.66173238)
+assurance
+('Test Accuracy:', 0.66523308)
+('Epoch:', 132, 'cost =', 0.02020360277533266)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 133, 'cost =', 0.021523412164699791)
+('Validation Accuracy:', 0.6645329)
+assurance
+('Test Accuracy:', 0.66593319)
+('Epoch:', 134, 'cost =', 0.021556571523126754)
+('Validation Accuracy:', 0.66593319)
+assurance
+('Test Accuracy:', 0.66833365)
+('Epoch:', 135, 'cost =', 0.020078522252650673)
+('Validation Accuracy:', 0.65913182)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 136, 'cost =', 0.020131672885867632)
+('Validation Accuracy:', 0.66173238)
+assurance
+('Test Accuracy:', 0.66563314)
+('Epoch:', 137, 'cost =', 0.020570496462085957)
+('Validation Accuracy:', 0.65853173)
+assurance
+('Test Accuracy:', 0.66473293)
+('Epoch:', 138, 'cost =', 0.019364591822294244)
+('Validation Accuracy:', 0.65613121)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 139, 'cost =', 0.020239481486912275)
+('Validation Accuracy:', 0.65873176)
+assurance
+('Test Accuracy:', 0.66753352)
+('Epoch:', 140, 'cost =', 0.020544269368651176)
+('Validation Accuracy:', 0.66413283)
+assurance
+('Test Accuracy:', 0.66583318)
+('Epoch:', 141, 'cost =', 0.019512955709360541)
+('Validation Accuracy:', 0.66033208)
+assurance
+('Test Accuracy:', 0.66553313)
+('Epoch:', 142, 'cost =', 0.020112626309107425)
+('Validation Accuracy:', 0.66093218)
+assurance
+('Test Accuracy:', 0.66613322)
+('Epoch:', 143, 'cost =', 0.017824975329983443)
+('Validation Accuracy:', 0.66533309)
+assurance
+('Test Accuracy:', 0.66573316)
+('Epoch:', 144, 'cost =', 0.018835941634273944)
+('Validation Accuracy:', 0.66293257)
+assurance
+('Test Accuracy:', 0.6674335)
+('Epoch:', 145, 'cost =', 0.018579593900191996)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66923386)
+('Epoch:', 146, 'cost =', 0.018696005455151741)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66503298)
+('Epoch:', 147, 'cost =', 0.018933970771197763)
+('Validation Accuracy:', 0.66053212)
+assurance
+('Test Accuracy:', 0.66903383)
+('Epoch:', 148, 'cost =', 0.020454453081225156)
+('Validation Accuracy:', 0.65773153)
+assurance
+('Test Accuracy:', 0.66483295)
+('Epoch:', 149, 'cost =', 0.019036804724684244)
+('Validation Accuracy:', 0.66233248)
+assurance
+('Test Accuracy:', 0.66693336)
+('Epoch:', 150, 'cost =', 0.019519429707101434)
+('Validation Accuracy:', 0.66173238)
+assurance
+('Test Accuracy:', 0.66843367)
+('Epoch:', 151, 'cost =', 0.018993407086070082)
+('Validation Accuracy:', 0.66293257)
+assurance
+('Test Accuracy:', 0.67043406)
+('Epoch:', 152, 'cost =', 0.018349797221765426)
+('Validation Accuracy:', 0.66033208)
+assurance
+('Test Accuracy:', 0.66913384)
+('Epoch:', 153, 'cost =', 0.017747848888726114)
+('Validation Accuracy:', 0.65973192)
+assurance
+('Test Accuracy:', 0.66473293)
+('Epoch:', 154, 'cost =', 0.017533638313678764)
+('Validation Accuracy:', 0.66053212)
+assurance
+('Test Accuracy:', 0.66953391)
+('Epoch:', 155, 'cost =', 0.019200489571916751)
+('Validation Accuracy:', 0.66333264)
+assurance
+('Test Accuracy:', 0.66683334)
+('Epoch:', 156, 'cost =', 0.017302566807650559)
+('Validation Accuracy:', 0.66073215)
+assurance
+('Test Accuracy:', 0.66643327)
+('Epoch:', 157, 'cost =', 0.01683721878998249)
+('Validation Accuracy:', 0.66633326)
+assurance
+('Test Accuracy:', 0.67033404)
+('Epoch:', 158, 'cost =', 0.017659516035512624)
+('Validation Accuracy:', 0.65953189)
+assurance
+('Test Accuracy:', 0.6645329)
+('Epoch:', 159, 'cost =', 0.016177772042408056)
+('Validation Accuracy:', 0.66333264)
+assurance
+('Test Accuracy:', 0.67023402)
+('Epoch:', 160, 'cost =', 0.01659410148626192)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.66483295)
+('Epoch:', 161, 'cost =', 0.016052743969485157)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66643327)
+('Epoch:', 162, 'cost =', 0.016296215700650863)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66723347)
+('Epoch:', 163, 'cost =', 0.01584172786313242)
+('Validation Accuracy:', 0.65853173)
+assurance
+('Test Accuracy:', 0.66363275)
+('Epoch:', 164, 'cost =', 0.014910850047599513)
+('Validation Accuracy:', 0.6645329)
+assurance
+('Test Accuracy:', 0.66843367)
+('Epoch:', 165, 'cost =', 0.015866488372308332)
+('Validation Accuracy:', 0.66553313)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 166, 'cost =', 0.015591962810472735)
+('Validation Accuracy:', 0.66493297)
+assurance
+('Test Accuracy:', 0.66243249)
+('Epoch:', 167, 'cost =', 0.015701719354838137)
+('Validation Accuracy:', 0.66313261)
+assurance
+('Test Accuracy:', 0.66853368)
+('Epoch:', 168, 'cost =', 0.014557516152937234)
+('Validation Accuracy:', 0.66053212)
+assurance
+('Test Accuracy:', 0.66853368)
+('Epoch:', 169, 'cost =', 0.015977060340477963)
+('Validation Accuracy:', 0.66893381)
+assurance
+('Test Accuracy:', 0.66493297)
+('Epoch:', 170, 'cost =', 0.014975568435953126)
+('Validation Accuracy:', 0.66553313)
+assurance
+('Test Accuracy:', 0.66573316)
+('Epoch:', 171, 'cost =', 0.014956575476764041)
+('Validation Accuracy:', 0.66253251)
+assurance
+('Test Accuracy:', 0.66693336)
+('Epoch:', 172, 'cost =', 0.016278556327202501)
+('Validation Accuracy:', 0.6639328)
+assurance
+('Test Accuracy:', 0.66723347)
+('Epoch:', 173, 'cost =', 0.014345556717099889)
+('Validation Accuracy:', 0.66073215)
+assurance
+('Test Accuracy:', 0.66533309)
+('Epoch:', 174, 'cost =', 0.015596169855146266)
+('Validation Accuracy:', 0.66473293)
+assurance
+('Test Accuracy:', 0.66253251)
+('Epoch:', 175, 'cost =', 0.013051486121091464)
+('Validation Accuracy:', 0.65953189)
+assurance
+('Test Accuracy:', 0.66733348)
+('Epoch:', 176, 'cost =', 0.013867340044484354)
+('Validation Accuracy:', 0.665133)
+assurance
+('Test Accuracy:', 0.66973394)
+('Epoch:', 177, 'cost =', 0.01445085903363569)
+('Validation Accuracy:', 0.66573316)
+assurance
+('Test Accuracy:', 0.66693336)
+('Epoch:', 178, 'cost =', 0.015297613567007427)
+('Validation Accuracy:', 0.66233248)
+assurance
+('Test Accuracy:', 0.66593319)
+('Epoch:', 179, 'cost =', 0.015160436681471759)
+('Validation Accuracy:', 0.65953189)
+assurance
+('Test Accuracy:', 0.66573316)
+('Epoch:', 180, 'cost =', 0.012616220675408856)
+('Validation Accuracy:', 0.66573316)
+assurance
+('Test Accuracy:', 0.66483295)
+('Epoch:', 181, 'cost =', 0.01324068600378399)
+('Validation Accuracy:', 0.66333264)
+assurance
+('Test Accuracy:', 0.67013401)
+('Epoch:', 182, 'cost =', 0.013756865240700019)
+('Validation Accuracy:', 0.66153228)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 183, 'cost =', 0.013849771622501837)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.66523308)
+('Epoch:', 184, 'cost =', 0.013719637143159557)
+('Validation Accuracy:', 0.66053212)
+assurance
+('Test Accuracy:', 0.66663331)
+('Epoch:', 185, 'cost =', 0.014203704189110006)
+('Validation Accuracy:', 0.65873176)
+assurance
+('Test Accuracy:', 0.66963392)
+('Epoch:', 186, 'cost =', 0.013018008040463826)
+('Validation Accuracy:', 0.65933186)
+assurance
+('Test Accuracy:', 0.6715343)
+('Epoch:', 187, 'cost =', 0.01264792573538475)
+('Validation Accuracy:', 0.65953189)
+assurance
+('Test Accuracy:', 0.66603321)
+('Epoch:', 188, 'cost =', 0.012963581007705739)
+('Validation Accuracy:', 0.65773153)
+assurance
+('Test Accuracy:', 0.66403282)
+('Epoch:', 189, 'cost =', 0.013661746730296206)
+('Validation Accuracy:', 0.66373277)
+assurance
+('Test Accuracy:', 0.66473293)
+('Epoch:', 190, 'cost =', 0.013581356930080796)
+('Validation Accuracy:', 0.66533309)
+assurance
+('Test Accuracy:', 0.66603321)
+('Epoch:', 191, 'cost =', 0.013392314893260059)
+('Validation Accuracy:', 0.66893381)
+assurance
+('Test Accuracy:', 0.66523308)
+('Epoch:', 192, 'cost =', 0.01305442075095405)
+('Validation Accuracy:', 0.66113222)
+assurance
+('Test Accuracy:', 0.66563314)
+('Epoch:', 193, 'cost =', 0.012227975173820082)
+('Validation Accuracy:', 0.665133)
+assurance
+('Test Accuracy:', 0.66733348)
+('Epoch:', 194, 'cost =', 0.014057516811382292)
+('Validation Accuracy:', 0.66713345)
+assurance
+('Test Accuracy:', 0.66243249)
+('Epoch:', 195, 'cost =', 0.012579960580582599)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66583318)
+('Epoch:', 196, 'cost =', 0.011984448876631032)
+('Validation Accuracy:', 0.66313261)
+assurance
+('Test Accuracy:', 0.66603321)
+('Epoch:', 197, 'cost =', 0.013302256420554057)
+('Validation Accuracy:', 0.6639328)
+assurance
+('Test Accuracy:', 0.66673332)
+('Epoch:', 198, 'cost =', 0.011505059455022469)
+('Validation Accuracy:', 0.66233248)
+assurance
+('Test Accuracy:', 0.6674335)
+('Epoch:', 199, 'cost =', 0.011340673014721166)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.66463292)
+('Epoch:', 200, 'cost =', 0.010823419795737475)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.6686337)
+('Epoch:', 201, 'cost =', 0.012437900576540937)
+('Validation Accuracy:', 0.66473293)
+assurance
+('Test Accuracy:', 0.66923386)
+('Epoch:', 202, 'cost =', 0.011476885773507622)
+('Validation Accuracy:', 0.65933186)
+assurance
+('Test Accuracy:', 0.66943389)
+('Epoch:', 203, 'cost =', 0.012767022918976315)
+('Validation Accuracy:', 0.65973192)
+assurance
+('Test Accuracy:', 0.67113423)
+('Epoch:', 204, 'cost =', 0.010595662895689854)
+('Validation Accuracy:', 0.66213244)
+assurance
+('Test Accuracy:', 0.66923386)
+('Epoch:', 205, 'cost =', 0.011531459727993937)
+('Validation Accuracy:', 0.66153228)
+assurance
+('Test Accuracy:', 0.66683334)
+('Epoch:', 206, 'cost =', 0.011957262768742758)
+('Validation Accuracy:', 0.65933186)
+assurance
+('Test Accuracy:', 0.6674335)
+('Epoch:', 207, 'cost =', 0.012516887494462678)
+('Validation Accuracy:', 0.6645329)
+assurance
+('Test Accuracy:', 0.6645329)
+('Epoch:', 208, 'cost =', 0.011003638312603094)
+('Validation Accuracy:', 0.66113222)
+assurance
+('Test Accuracy:', 0.6645329)
+('Epoch:', 209, 'cost =', 0.012090990082776571)
+('Validation Accuracy:', 0.65933186)
+assurance
+('Test Accuracy:', 0.66523308)
+('Epoch:', 210, 'cost =', 0.010719996250866512)
+('Validation Accuracy:', 0.65473098)
+assurance
+('Test Accuracy:', 0.66353273)
+('Epoch:', 211, 'cost =', 0.011573463239973139)
+('Validation Accuracy:', 0.66293257)
+assurance
+('Test Accuracy:', 0.66753352)
+('Epoch:', 212, 'cost =', 0.010383884941277632)
+('Validation Accuracy:', 0.66073215)
+assurance
+('Test Accuracy:', 0.66543311)
+('Epoch:', 213, 'cost =', 0.0099558415719574102)
+('Validation Accuracy:', 0.66113222)
+assurance
+('Test Accuracy:', 0.66503298)
+('Epoch:', 214, 'cost =', 0.01058441198214756)
+('Validation Accuracy:', 0.65873176)
+assurance
+('Test Accuracy:', 0.66573316)
+('Epoch:', 215, 'cost =', 0.010822879999177543)
+('Validation Accuracy:', 0.66093218)
+assurance
+('Test Accuracy:', 0.66933388)
+('Epoch:', 216, 'cost =', 0.0098299884102639856)
+('Validation Accuracy:', 0.6639328)
+assurance
+('Test Accuracy:', 0.66993397)
+('Epoch:', 217, 'cost =', 0.0092896327820406934)
+('Validation Accuracy:', 0.65773153)
+assurance
+('Test Accuracy:', 0.66963392)
+('Epoch:', 218, 'cost =', 0.011047523689921944)
+('Validation Accuracy:', 0.66193241)
+assurance
+('Test Accuracy:', 0.67113423)
+('Epoch:', 219, 'cost =', 0.01037408503520835)
+('Validation Accuracy:', 0.65873176)
+assurance
+('Test Accuracy:', 0.66423285)
+('Epoch:', 220, 'cost =', 0.0099121175343835962)
+('Validation Accuracy:', 0.65593117)
+assurance
+('Test Accuracy:', 0.66853368)
+('Epoch:', 221, 'cost =', 0.010124897878600424)
+('Validation Accuracy:', 0.65953189)
+assurance
+('Test Accuracy:', 0.66783357)
+('Epoch:', 222, 'cost =', 0.010688825387374621)
+('Validation Accuracy:', 0.65353072)
+assurance
+('Test Accuracy:', 0.66793358)
+('Epoch:', 223, 'cost =', 0.011459928102724788)
+('Validation Accuracy:', 0.65453088)
+assurance
+('Test Accuracy:', 0.66583318)
+('Epoch:', 224, 'cost =', 0.0088268226499868836)
+('Validation Accuracy:', 0.65593117)
+assurance
+('Test Accuracy:', 0.67233449)
+('Epoch:', 225, 'cost =', 0.0096751380934646022)
+('Validation Accuracy:', 0.66493297)
+assurance
+('Test Accuracy:', 0.67043406)
+('Epoch:', 226, 'cost =', 0.010255697502455278)
+('Validation Accuracy:', 0.66033208)
+assurance
+('Test Accuracy:', 0.66873378)
+('Epoch:', 227, 'cost =', 0.0099871887849544115)
+('Validation Accuracy:', 0.65873176)
+assurance
+('Test Accuracy:', 0.67013401)
+('Epoch:', 228, 'cost =', 0.010298902310813507)
+('Validation Accuracy:', 0.66013205)
+assurance
+('Test Accuracy:', 0.66943389)
+('Epoch:', 229, 'cost =', 0.01062764969978681)
+('Validation Accuracy:', 0.66053212)
+assurance
+('Test Accuracy:', 0.66813362)
+('Epoch:', 230, 'cost =', 0.0092564562492771073)
+('Validation Accuracy:', 0.65773153)
+assurance
+('Test Accuracy:', 0.66763353)
+('Epoch:', 231, 'cost =', 0.0096505049960355135)
+('Validation Accuracy:', 0.66273254)
+assurance
+('Test Accuracy:', 0.66763353)
+('Epoch:', 232, 'cost =', 0.010350372568604396)
+('Validation Accuracy:', 0.65993196)
+assurance
+('Test Accuracy:', 0.6680336)
+('Epoch:', 233, 'cost =', 0.0089817178896295768)
+('Validation Accuracy:', 0.66253251)
+assurance
+('Test Accuracy:', 0.66823363)
+('Epoch:', 234, 'cost =', 0.0091423362772911857)
+('Validation Accuracy:', 0.66473293)
+assurance
+('Test Accuracy:', 0.67083418)
+('Epoch:', 235, 'cost =', 0.010759105252717359)
+('Validation Accuracy:', 0.66133225)
+assurance
+('Test Accuracy:', 0.66783357)
+('Epoch:', 236, 'cost =', 0.0095996437377263068)
+('Validation Accuracy:', 0.66353273)
+assurance
+('Test Accuracy:', 0.66753352)
+('Epoch:', 237, 'cost =', 0.0099248508310743645)
+('Validation Accuracy:', 0.66333264)
+assurance
+('Test Accuracy:', 0.66973394)
