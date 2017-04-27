@@ -68,8 +68,8 @@ U. Names: Amal Buford, Mohammed Ibrahim, Oluwatobi Oni-Orisan
 Description: Add another conv/relu/maxpool layer while
     maintaining the fully connected layer at 6x6, compare to tf.nn.avg_pool
 Summary Results:
-    Number of epochs to reach a validation accuracy of 0.4: 2
-    Validation accuracy after 100 epochs (batch_size = 100): 0.66673332
+    Number of epochs to reach a validation accuracy of 0.4: 2 (previously 5 with maxpool)
+    Validation accuracy after 100 epochs (batch_size = 100): 0.66673332 (previously 0.6365273 with maxpool)
 
 V. Names: Evan Wolf, Brendan Routh, Gab Conclaves
 Description: add a second fully connected layer of size 256
