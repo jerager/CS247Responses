@@ -55,6 +55,13 @@ Number of epochs to reach a validation accuracy of 0.4: 4
 Validation accuracy after 100 epochs: 0.66313261
 Note: Validation accuracy after 265 epochs: 0.66433287
 
+L: Names: Jeff Ewing, Sam Procter, Jake Meyer
+Description: changed the number of features in the first conv layer to 64' learning rate to 0.05
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 2
+Validation accuracy after 100 epochs (batch_size = 100): 0.65613121
+Note: the first time running, our program got stuck. 
+
 
 M. Names: Daniel Mariselli, Alex Chou, Carina Corbin
 Description: Change the number of features in the second conv layer to 128, learning rate of 0.01
