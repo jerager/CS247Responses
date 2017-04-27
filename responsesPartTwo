@@ -62,6 +62,13 @@ Summary Results:
 Number of epochs to reach a validation accuracy of 0.4: Epoch 7
 Validation accuracy after 100 epochs (batch_size = 100): 0.63772756
 
+N. Names: Pierre-Alexander Low, Gabriel Young
+Description: Change the number of features in the second conv later to 128, learning rate of 0.05
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 4 (0.47249451)
+Validation accuracy after 100 epochs (batch_size = 100): 0.62412483
+Program was stuck on 4532 seed on multiple attempts, seed changed to 4533
+
 O. Names: Andrew Kim and Emily Masten
 Description: Keep percentage at 0.5; fully connected hidden layer of size 1536
 (second convolution layer size = 32)
