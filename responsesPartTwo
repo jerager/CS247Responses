@@ -55,6 +55,13 @@ Number of epochs to reach a validation accuracy of 0.4: 4
 Validation accuracy after 100 epochs: 0.66313261
 Note: Validation accuracy after 265 epochs: 0.66433287
 
+K. Name: Mahima Ghale, Allison Lee, Alex Watson
+Description: Increase first convolution layer to 64 with learning rate 0.01
+Summary Results:
+Number of epochs to reach validation of 0.4: 12
+Validation accuracy after 100 epochs: 0.645
+Validation accuracy after 305 epochs: 0.655
+
 L: Names: Jeff Ewing, Sam Procter, Jake Meyer
 Description: changed the number of features in the first conv layer to 64' learning rate to 0.05
 Summary Results:
