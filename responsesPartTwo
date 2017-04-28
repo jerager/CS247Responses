@@ -113,6 +113,12 @@ Summary results:
 Number of epochs to reach a validation accuracy of 0.4: 25
 Validation accuracy after 100 epochs (batch_size = 100): 0.658532
 
+W. Names: Jackson Herrick, Drew Kelleher
+Description: Add a second fully connected layer but make the first 256 and the second 128
+Summary results:
+Number of epochs to reach a validation accuracy of 0.4: 3
+Validation accuracy after 100 epochs (batch size 100): 0.64172834
+
 X. Names: Ehsan Mojahedi, Jack Muller, Olivia Pinney
 Description: "Use a learning rate that increases if something is going well dropping and decreases if going badly."
 Summary of Results:
