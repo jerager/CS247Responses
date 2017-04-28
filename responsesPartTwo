@@ -24,6 +24,17 @@ Number of epochs to reach a validation accuracy of 0.4: Epoch 4
 Validation accuracy after 100 Epochs: 0.66
 Stopped at Epoch 237 with Validation Accuracy of 0.67
 
+C.  Max Roche, John Festa, John Cross
+Description: Use momentum optimization with a momentum of 0,9, learning rate 0.1
+Number of epochs to reach a validation accuracy of 0.4: 3 epochs
++
+So, initially we ran the code with the parameters given to us which was Momentum Optimizer of 0.9 with a 
+learning rate of 0.1. We found that the accuracy go stuck at approximately 0.1 for 3 epochs. So, we shut it down 
+and tried both a new seed to a completely random number of 7812 and a new learning rate. The group who had this 
+momentum task for the first assignemnt told us that 0.5 worked well for them. We tried this as well as a learning 
+rate for of 0.75. Both worked well but we decided to submit the results that are with a momentum of 0.75. The learning rate 
+remained 0.1 for the all of thee experiments. 
+
 D. Names: Ian Nanez, Hutomo Limanto, Obi Daniel Ezeogu
 Description: use momentum optimization with a momentum of 0.5, learning rate 0.001
 Summary Results:
