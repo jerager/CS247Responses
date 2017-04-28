@@ -48,6 +48,11 @@ Number of epochs to reach a validation accuracy of 0.4: 2
 Validation accuracy after 100 epochs: 0.64592916
 Note: Validation accuracy after 708 epochs: 0.62652528
 
+H. Names: Robbie Zielinski, Kevin Goldberg, Andy Tang
+Description: Keep percentage to 0.75, fully connected hidden layer of 1536
+Number of epochs to reach a validation accuracy of 0.4: 3
+Validation accuracy after 100 epochs: 0.56511301
+
 I. Name: Sean Fitzgerald, Reynaldo Peña, Juan Guaracao
 Description: Use momentum optimization with a momentum of 0.5, learning rate 0.1
 Summary Results:
