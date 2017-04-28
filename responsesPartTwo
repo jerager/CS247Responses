@@ -65,6 +65,23 @@ Validation accuracy after 100 epochs (batch_size = 100): 0.64132828
 =======
 
 >>>>>>> 57d3d6ea779628212a68cee0b16a7b97ed4aa43a
+
+Q. Names: Hunter Voegele, Laura Schmidlein, Andrew Ferrero
+
+Description: Compare the original pooling to compare this to tf.nn.avg_pool
+
+Notes:
+tf.nn_avg_pool() worked much better than the original pooling. Not only did it get to a high validation and test accuracy much faster than the original pooling, it also avoided overfitting for many more epochs. Although the accuracy was lower at 100 epochs, this is because the accuracy fluctuated from .64 - .65 until the 115 epoch, then overfitting drove the accuracy down gradually (much less gradual than the original).
+
+tf.nn_avg_pool() statistics:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 1
+Validation accuracy after 100 epochs (batch_size = 100): 0.640728
+
+Original baseline statistics:
+Number of epochs to reach a validation accuracy of 0.4: Epoch 3
+Validation accuracy after 100 epochs (batch_size = 100): 0.645
+
+
 R. Names: Megan Root, Harrison Marick, Dorit Song
 Description: Changed dropout keep_prob to 0.8 and made stride length of one max pool layer 1
 Number of Epochs to reach validation accuracy of 0.4: 5
