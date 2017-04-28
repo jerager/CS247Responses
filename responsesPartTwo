@@ -55,6 +55,13 @@ Number of epochs to reach a validation accuracy of 0.4: 4
 Validation accuracy after 100 epochs: 0.66313261
 Note: Validation accuracy after 265 epochs: 0.66433287
 
+J. Names: Nicholas Lafky, Connor Haley, Phong Hoang
+Description: change keep percentage to 0.9, fully connected hidden layer of 1536
+Summary Results:
+Number of epochs to reach a validation accuracy of 0.4: Never
+Validation accuracy after 100 epochs (batch_size = 100):0.368874
+The validation accuracy actually decreased as we ran it, going to 0.363273 after 240 epochs
+
 K. Name: Mahima Ghale, Allison Lee, Alex Watson
 Description: Increase first convolution layer to 64 with learning rate 0.01
 Summary Results:
