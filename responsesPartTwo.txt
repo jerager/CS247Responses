@@ -101,6 +101,13 @@ Description: Changed dropout keep_prob to 0.8 and made stride length of one max 
 Number of Epochs to reach validation accuracy of 0.4: 5
 Validation accuracy after 100 epochs (batch_size=100): 0.592118
 
+S. Names: Sam Stallop, Michael Shi, Roy Liu
+Description: Changed the stride to 3
+Number of Epochs to reach validation accuracy of 0.4: 30
+Validation accuracy after 100 epochs (batch_size = 100): 0.565313
+Validation accuracy after 275 epochs: 0.622725
+
+
 T. Names: Tiffany Kha, Azka Javaid, Jordan Browning 
 Description: add another convu/relu/maxpool layer but keep input to fully connected layer at 3x3 compare to tf.nn.avg_pool
 Summary results:
