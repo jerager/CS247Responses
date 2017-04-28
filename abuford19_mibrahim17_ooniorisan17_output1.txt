@@ -1,6 +1,6 @@
 Amal Buford 19, Mohammed Ibrahim 17, Tobi Oni-Orisan 17
 
-5 Epochs to each Valid. Accuracy of 0.4
+5 Epochs to reach Valid. Accuracy of 0.4
 Validation accuracy after 100 Epochs - 0.6365273
 
 OUTPUT - 
